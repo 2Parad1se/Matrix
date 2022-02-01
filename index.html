@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Matrix</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="burger">
+            <span class="burger_line burger_line_first"></span>
+            <span class="burger_line burger_line_second"></span>
+            <span class="burger_line burger_line_third"></span>
+            <span class="burger_line burger_line_fourth"></span>
+        </div>
+        <nav class="mainMenu">
+            <a href="#"> Geyrn 1</a>
+            <button class="operations sumHigherMain">Сумма элементов выше главной</button>
+            <button class="operations sumBelowSide">Сумма элементов ниже побочной</button>
+            <button class="operations determinant">Определитель матрицы</button>
+            <button class="operations transposition">Транспонирование матрицы</button>
+                
+        </nav>
+        
+    </div>
+    <form action="" class="form">
+        <label for="size">Введите размерность матрицы</label> <br>
+        <input type="text" placeholder="Размерность матрицы" class="size" name="matrix_size">
+        <button class="create">Create</button>
+        <button class="fill hideFill">Заполнить</button>
+        <div class="parentInputBox"></div>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
